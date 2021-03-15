@@ -17,5 +17,18 @@ Esse projeto está dividido em três partes:
 
 A estratégia de modelagem foi baseada em testar diferentes modelos, com as features mais representativas, tanto as quantitativas quanto as qualitativas. Para executar a modelagem, os dados categóricos foram transformados em variáveis binárias, utilizando a função OneHotEncoder, do Sklearn e, após a base pronta com as variáveis, as mesmas foram normalizdas utilizando StandardScaler, também do Sklearn.
 
-O melhor modelo encontrado, foi o <b>XGBoost, apresentando 97% de acurácia</b>, acima dos demais. Contudo, o motivo por sua escolha está na avaliação dos indicadores de precisão, recall e f1-score, apresentando os melhores valores para previsão de cada classe da variável resposta.
+O melhor modelo encontrado, foi o <b>XGBoost, apresentando 97% de acurácia</b>, acima dos demais. Contudo, o motivo por sua escolha está na avaliação dos indicadores de precisão (88%), recall (84%) e f1-score (86%), apresentando os melhores valores para previsão de cada classe da variável resposta.
+
+Como evidências, podemos ver a matriz de confusão, apresentando boa classificação para todas as classes presentes.
+
+
+<b>Matriz de Cunfusão:</b>
+Predito     0   1     2    3   All
+Real                              
+0        5654   2    69    5  5730
+1           2  17     5    1    25
+2         101   1  1929   22  2053
+3           1   0     8  168   177
+All      5758  20  2011  196  7985
+
 
