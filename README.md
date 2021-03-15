@@ -22,7 +22,7 @@ O melhor modelo encontrado, foi o <b>XGBoost, apresentando 97% de acurácia</b>,
 Como evidências, podemos ver a matriz de confusão, apresentando boa classificação para todas as classes presentes.
 
 
-<b>Matriz de Cunfusão:</b><br><br>
+<b>Matriz de Cunfusão:</b><br>
 ![image](https://user-images.githubusercontent.com/17936143/111096281-f079ec00-851d-11eb-99e9-44641e44bab9.png)
 
 
