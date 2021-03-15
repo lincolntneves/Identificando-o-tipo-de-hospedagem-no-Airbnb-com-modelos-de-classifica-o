@@ -1,1 +1,13 @@
-# Identificando o tipo de hospedagem no Airbnb com modelos de classificação
+## Identificando o tipo de hospedagem no Airbnb com modelos de classificação
+
+O objetivo desse projeto é identificar o tipo hospedagem publicada no site da empresa Airbnb, na cidade do Rio de Janeiro, Brasil, utilizando modelos de classificação. Foram utilizados cinco técnicas de Machine Learning:
+- Supervised Vector Machine (SVM)
+- Árvore de Decisão
+- Naive Bayes
+- Random Forest
+- XGBoost
+
+Esse projeto está dividido em três partes:
+- Parte 01: Ajuste em variáveis para fazerem parte dos modelos
+- Parte 02: Rodando baselines, utilizando todas as variáveis
+- Parte 03: Utilizando algoritmo de feature selection para escolha de variáveis
