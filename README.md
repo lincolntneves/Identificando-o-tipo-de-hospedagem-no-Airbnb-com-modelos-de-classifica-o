@@ -1,3 +1,4 @@
+[![author](https://img.shields.io/badge/author-lincolnneves-red.svg)](https://www.linkedin.com/in/lincolntneves/?locale=en_US) [![](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/release/python-365/)
 ## Identificando o tipo de hospedagem no Airbnb com modelos de classificação
 
 O objetivo desse projeto é identificar o tipo hospedagem publicada no site da empresa Airbnb, na cidade do Rio de Janeiro, Brasil, utilizando modelos de classificação. A base de dados utilzada pode ser encontrada na página de dados da empresa, clicando [aqui](http://insideairbnb.com/get-the-data.html).
